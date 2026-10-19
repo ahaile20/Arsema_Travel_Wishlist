@@ -83,7 +83,6 @@ export function DestinationForm() {
               </p>
             ) : null}
 
-            // TODO: Display validation error for the city field
           </div>
 
           <div className={styles.fieldGroup}>
@@ -107,7 +106,6 @@ export function DestinationForm() {
               </p>
             ) : null}
 
-            // TODO: Display validation error for the country field
           </div>
 
           {addDestinationMutation.error ? (
